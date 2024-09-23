@@ -4,15 +4,18 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  let [counter,setCounter]=useState(0);
+  const [counter,setCounter]=useState(0);
 
 // let counter=15
 const addValue=()=>{
   // console.log('value added',Math.random())
   //  counter=counter+1;
   if(counter <20){
-
-    setCounter(counter+1)
+    setCounter(counter+1);
+    // setCounter((prevCounter)=>prevCounter+1)
+    // setCounter(prevCounter=>prevCounter+1)
+    // setCounter(prevCounter=>prevCounter+1)
+    // setCounter(prevCounter=>prevCounter+1)
   }
   
   // console.log('add value',counter)
