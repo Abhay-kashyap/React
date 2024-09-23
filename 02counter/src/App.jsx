@@ -19,7 +19,6 @@ const addValue=()=>{
 }
 const removeValue=()=>{
   if(counter>0){
-
     setCounter(counter - 1 )
   }
 }
